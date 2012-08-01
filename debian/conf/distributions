@@ -1,0 +1,10 @@
+Origin: COTD
+Label: COTD
+Suite: squeeze 
+Codename: squeeze
+Version: 6.0
+Architectures: amd64
+Components: main
+UDebComponents: main
+Description: COTD custom packages
+SignWith: 3892DB9D

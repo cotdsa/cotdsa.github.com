@@ -1,0 +1,7 @@
+Archive: squeeze
+Version: 6.0
+Component: main
+Origin: COTD
+Label: COTD
+Architecture: amd64
+Description: COTD custom packages

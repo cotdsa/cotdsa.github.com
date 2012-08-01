@@ -1,0 +1,50 @@
+Package: bash
+Version: 4.1-4cg
+Architecture: amd64
+Essential: yes
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 3596
+Pre-Depends: dash (>= 0.5.5.1-2.2), libc6 (>= 2.4), libncurses5 (>= 5.7+20100313)
+Depends: base-files (>= 2.1.12), debianutils (>= 2.15)
+Recommends: bash-completion (>= 20060301-0)
+Suggests: bash-doc
+Conflicts: bash-completion (<< 20060301-0)
+Replaces: bash-completion (<< 20060301-0), bash-doc (<= 2.05-1)
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+Priority: required
+Section: shells
+Filename: pool/main/b/bash/bash_4.1-4cg_amd64.deb
+Size: 1331136
+SHA256: 31aebaa411af9f62e48ac1274ef46de753a5ab345e3287cc662eb6ac04b052a0
+SHA1: 16caff47489104a9466c0114a0a85e653d304626
+MD5sum: 930ae287447483d7495b671fa2792b33
+Description: The GNU Bourne Again SHell
+ Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file.  Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+ .
+ Bash is ultimately intended to be a conformant implementation of the
+ IEEE POSIX Shell and Tools specification (IEEE Working Group 1003.2).
+ .
+ The Programmable Completion Code, by Ian Macdonald, is now found in
+ the bash-completion package.
+
+Package: libpam-ttyaudit
+Source: pam
+Version: 1.1.1-6.1+squeeze1
+Architecture: amd64
+Maintainer: Steve Langasek <vorlon@debian.org>
+Installed-Size: 136
+Depends: libc6 (>= 2.2.5), libpam0g (>= 0.99.7.1), libpam-runtime (>= 1.0.1-6), libaudit0
+Replaces: libpam-modules (<< 1.1.0-3), libpam0g-cracklib
+Homepage: http://pam.sourceforge.net/
+Priority: optional
+Section: admin
+Filename: pool/main/p/pam/libpam-ttyaudit_1.1.1-6.1+squeeze1_amd64.deb
+Size: 76282
+SHA256: 028f3d87c9407efae13dfb58ced70482cc20827ed73b61d6d4389eb594956c6b
+SHA1: d8aa14ea94de793db5d226b051b0d045c44e00dd
+MD5sum: 5a43739b8abaa71d32d509a7fa06697e
+Description: PAM module to enable kernel tty audit logging
+ This package includes libpam_tty_audit, a PAM module.
+
