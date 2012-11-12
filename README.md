@@ -17,4 +17,4 @@ reprepro --ask-passphrase -Vb . includedeb precise /tmp/mypackage_0.1.2_amd64.de
 
 
 #Superceded keys:
-apt-key del AD9BE2CB
+apt-key del 6AA5E619
