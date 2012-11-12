@@ -1,0 +1,11 @@
+Origin: Ubuntu
+Codename: precise
+Description: Ubuntu Precise mirror
+Architectures: amd64 source
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Contents: .gz .bz2
+Update: -
+SignWith: AD9BE2CB

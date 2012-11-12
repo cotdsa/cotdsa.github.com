@@ -1,0 +1,62 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Origin: Ubuntu
+Codename: precise
+Date: Mon, 12 Nov 2012 07:12:15 UTC
+Architectures: amd64
+Components: main
+Description: Ubuntu Precise mirror
+MD5Sum:
+ e6ed3efa800f73ff94714cb691f7646b 691 main/binary-amd64/Packages
+ 910e443fbabed5377c0b9edc79d2a9b1 463 main/binary-amd64/Packages.gz
+ daefa69b6b665296aca750683d6de9c8 519 main/binary-amd64/Packages.bz2
+ 5e4f5bfc1bdb6e15df0f8e9e14046b99 86 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 4059d198768f9f8dc9372dc1c54bc3c3 14 main/source/Sources.bz2
+ 1217c093f307f5f616faa72cda6f2efb 87 main/source/Release
+ 9fdab03e83c1823e61c67160e1688ce1 340 Contents-amd64
+ 7c84f877d3d6cad8f0c241c96475257b 128 Contents-amd64.gz
+ 2b85d166f3bb277f12d0ccfdf89d627d 169 Contents-amd64.bz2
+SHA1:
+ 39ee415acbf10a14812ed5e577d761286c1f7f42 691 main/binary-amd64/Packages
+ fcd1551388f08bc2966e46c0b5c756eba1aed028 463 main/binary-amd64/Packages.gz
+ 039bb3686b8963a9e237af435b21f3855d13e973 519 main/binary-amd64/Packages.bz2
+ 1fe30f094e6b404becdc4e3d86441514b48b5905 86 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 main/source/Sources.bz2
+ d212b6e18a7ad88acdbf798b0065d38138e4b1c5 87 main/source/Release
+ 67ae903d08876c596dd0df4479f5ef163e89136d 340 Contents-amd64
+ bbf14b25be9f1b93801c2a45fba01c12cee498af 128 Contents-amd64.gz
+ 784c0483230c159ec33e29052d5a4e6d5c2715d0 169 Contents-amd64.bz2
+SHA256:
+ fd563926ed5d9efc1ffc11016f4b0e828730ed99c4a72a6e2828043e5ef42f84 691 main/binary-amd64/Packages
+ ed0d3d484923baaff8f6272ee37b18f6c12922c7afe783b9550bd5fcbcda7264 463 main/binary-amd64/Packages.gz
+ d5134e649e7b582c0eea07820767376fdb423178feb83514c0e62f5348113a6a 519 main/binary-amd64/Packages.bz2
+ 03f4bd6cdc44f67f1d46e22d48900ffb4b4c73b738e942980643fb96a2a6f145 86 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 main/source/Sources.bz2
+ bf8d709be3b1dabf9565fff7ff575978023abc21b1b784c5d653debdc90e5065 87 main/source/Release
+ 5f3839e68eb8d56ba5a17165bdd7de5269e73eb71acb68180937fd11f29ec65a 340 Contents-amd64
+ 63d4c57926b286f452364f26a533fab6fd689d781da4192aa39e0fc1588b4d20 128 Contents-amd64.gz
+ cf1b5ddcd1ef42eea2ddc127a2ebb8ab2ac44abf5eaa519bdbe4e7b75823fffc 169 Contents-amd64.bz2
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJQoKFPAAoJEBOLGUmtm+LLyNwH/2ebwouiiXBb4aNmYQsrU+Mp
+TeYWr73lDyrxbGG4SOmVf7v3HTKiDa5GP1JVzCH4Or2TCW3Hvc5kfdnDlK3QTUqV
+SN4DEjawy0Ja2XFR1rRDc3fGl92snkBpw+WeyMxBMz1fn9aCdDlFxqpOuUCK0reF
+Rs8pjN5maB18XW31i5hv0TVLF4shIuZpgzP7PZRFdSIqHoxfYelptQFbGQB4+2Lw
+2uWdruDsXk3o3ZXrpa2lG47Q/reFKOP2QGBSiFsmcxxJkiRNe7trHkdk8d0F3OBZ
+9wY+oxvbMbYrCDGRoYjjkww4uBk9dbDQxESwYlWaenMSxemYc/2QcQrLTRjgPnc=
+=dnV6
+-----END PGP SIGNATURE-----
