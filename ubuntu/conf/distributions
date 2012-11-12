@@ -1,7 +1,7 @@
 Origin: Ubuntu
 Codename: precise
 Description: Ubuntu Precise mirror
-Architectures: amd64 source
+Architectures: amd64 source i386
 Components: main
 UDebComponents: main
 DebIndices: Packages Release . .gz .bz2
