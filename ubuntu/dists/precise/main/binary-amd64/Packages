@@ -1,17 +1,17 @@
 Package: cg-metadata-helper
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: Matteo Sessa <matteo.sessa@catchoftheday.com.au>
-Installed-Size: 41
+Installed-Size: 42
 Depends: python
 Homepage: http://www.cgws.com.au/
 Priority: optional
 Section: misc
-Filename: pool/main/c/cg-metadata-helper/cg-metadata-helper_1.0.0_all.deb
-Size: 6558
-SHA256: 7e8b80606fd02c0f35970cbfe983cf530eb13151f29ff956bff1a7b4b4e072ba
-SHA1: 8801d5f8ba71f8a16494f4dee12ea8a8278915cf
-MD5sum: 576da1dc9267d249988a695eb404664a
+Filename: pool/main/c/cg-metadata-helper/cg-metadata-helper_1.0.1_all.deb
+Size: 6606
+SHA256: 5dd949d50563d1ec9196b03769c5f0c4882111e817549c4f8731a873aa9e45c5
+SHA1: 7f1a644a8fe6ba20cbb12a0335c9d4a148f49c3e
+MD5sum: 47541cb1e72ad715b5125d8474d6c06c
 Description: Python helper for retrieving both general and CGWS specific EC2/CF tags
  This python helper can retrieve EC2 and CloudFormation metadata
  for either generic information and CGWS infrastructure specific data
