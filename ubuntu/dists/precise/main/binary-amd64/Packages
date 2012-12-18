@@ -16,6 +16,23 @@ Description: Python helper for retrieving both general and CGWS specific EC2/CF 
  This python helper can retrieve EC2 and CloudFormation metadata
  for either generic information and CGWS infrastructure specific data
 
+Package: mod-pagespeed-stable
+Version: 1.1.23.2-r2258
+Architecture: amd64
+Maintainer: mod_pagespeed developers <mod-pagespeed-dev@googlegroups.com>
+Installed-Size: 11048
+Pre-Depends: dpkg (>= 1.14.0)
+Depends: apache2.2-common, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1-21), libstdc++6 (>= 4.2.1-4)
+Priority: optional
+Section: httpd
+Filename: pool/main/m/mod-pagespeed-stable/mod-pagespeed-stable_1.1.23.2-r2258_amd64.deb
+Size: 4396072
+SHA256: 2340e33d455f15b4854d2b289a6d9e8234990c842c9ddc78f810c126662654f8
+SHA1: 9ee2f24286dd3657bda019507566e118ac7495ed
+MD5sum: 99ab72b85720324970415bcc8215cf82
+Description: Apache 2 module to optimize web content.
+ mod_pagespeed is an Apache module that aims to speed up load time of pages by applying web performance best practices automatically.
+
 Package: openssh-cg-server
 Source: openssh
 Version: 1:5.9p1-5ubuntu2
