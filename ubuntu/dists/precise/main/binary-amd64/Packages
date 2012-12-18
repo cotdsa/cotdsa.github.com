@@ -16,6 +16,51 @@ Description: Python helper for retrieving both general and CGWS specific EC2/CF 
  This python helper can retrieve EC2 and CloudFormation metadata
  for either generic information and CGWS infrastructure specific data
 
+Package: elasticsearch
+Version: 0.20.1
+Architecture: all
+Depends: libc6, adduser, java7-runtime-headless | java6-runtime-headless | java7-runtime | java6-runtime
+Installed-Size: 17422
+Maintainer: Nicolas Huray <nicolas.huray@gmail.com>
+Priority: optional
+Section: web
+Filename: pool/main/e/elasticsearch/elasticsearch_0.20.1_all.deb
+Size: 15380488
+SHA256: a3297984424c17b17eda23ccad0ebca518284464ae5430c6afd5ae4a0273f9a8
+SHA1: f3d83705d0d28b414008e8ef26c82369bd6d50c6
+MD5sum: 845f59adce7d78ace27f74239fd76f92
+Description: Open Source, Distributed, RESTful Search Engine
+ ElasticSearch is a distributed RESTful search engine built for the cloud. 
+ .
+ Features include:
+ .
+ + Distributed and Highly Available Search Engine.
+  - Each index is fully sharded with a configurable number of shards.
+  - Each shard can have one or more replicas.
+  - Read / Search operations performed on either one of the replica shard.
+ + Multi Tenant with Multi Types.
+  - Support for more than one index.
+  - Support for more than one type per index.
+  - Index level configuration (number of shards, index storage, ...).
+ + Various set of APIs
+  - HTTP RESTful API
+  - Native Java API.
+  - All APIs perform automatic node operation rerouting.
+ + Document oriented
+  - No need for upfront schema definition.
+  - Schema can be defined per type for customization of the indexing process.
+ + Reliable, Asynchronous Write Behind for long term persistency.
+ + (Near) Real Time Search.
+ + Built on top of Lucene
+  - Each shard is a fully functional Lucene index
+  - All the power of Lucene easily exposed through simple 
+    configuration/plugins.
+ + Per operation consistency
+  - Single document level operations are atomic, consistent, isolated and
+    durable.
+ + Open Source under Apache 2 License.
+Homepage: http://www.elasticsearch.org/
+
 Package: mod-pagespeed-stable
 Version: 1.1.23.2-r2258
 Architecture: amd64
