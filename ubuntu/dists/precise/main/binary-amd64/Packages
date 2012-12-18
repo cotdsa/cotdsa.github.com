@@ -76,3 +76,25 @@ Description: secure shell (SSH) server, for secure access from remote machines
  purposes.
 Original-Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
 
+Package: redis-server
+Source: redis
+Version: 2:2.6.7-1~dotdeb.0
+Architecture: amd64
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Installed-Size: 1453
+Depends: libc6 (>= 2.7), adduser
+Homepage: http://redis.io/
+Priority: optional
+Section: database
+Filename: pool/main/r/redis/redis-server_2.6.7-1~dotdeb.0_amd64.deb
+Size: 667594
+SHA256: 4a44a00b7a4f85dbab1e95163ef699105971f4b5575b5e42e43e933c06c4ec47
+SHA1: c6814161f882194b25fbfe6bad41b7b1784343c6
+MD5sum: a96dcf7f1f0ccbc36fdb9180ccb862e0
+Description: Persistent key-value database with network interface
+ Redis is a key-value database in a similar vein to memcache but the dataset
+ is non-volatile. Redis additionally provides native support for atomically
+ manipulating and querying data structures such as lists and sets.
+ .
+ The dataset is stored entirely in memory and periodically flushed to disk.
+
