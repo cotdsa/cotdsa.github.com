@@ -1,5 +1,5 @@
 Package: cg-couchbase-cluster-helper
-Version: 0.9.0
+Version: 0.9.1
 Architecture: all
 Maintainer: Matteo Sessa <matteo.sessa@catchoftheday.com.au>
 Installed-Size: 40
@@ -7,11 +7,11 @@ Depends: python
 Homepage: http://www.cgws.com.au/
 Priority: optional
 Section: misc
-Filename: pool/main/c/cg-couchbase-cluster-helper/cg-couchbase-cluster-helper_0.9.0_all.deb
-Size: 6086
-SHA256: a5b9ed7b0c1b0828c2dd76b7ecf676e2c5cf0932fbc0bd2261b4225e3d3b1abf
-SHA1: 3a81ec8c3c5a113ac1bf280a7fe85b6af803bad1
-MD5sum: 1e4a82047bd3818d0d963e731c5aafb1
+Filename: pool/main/c/cg-couchbase-cluster-helper/cg-couchbase-cluster-helper_0.9.1_all.deb
+Size: 6136
+SHA256: cc49dc4dee1d9cbcc2e97ccf431512dc3957df822ac53317b0d73ae096d33275
+SHA1: ef406544d8d1b7f710aa6928dbe37216077c92df
+MD5sum: c4161dd7ae5bbef22657be5c37b71a9a
 Description: Python helper to create, join and rebalance CouchBase clusters
  This python helper can detect running CouchBase cluster based
  on EC2 tags and either create of join an existing one
