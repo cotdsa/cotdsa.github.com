@@ -164,3 +164,18 @@ Description: Persistent key-value database with network interface
  .
  The dataset is stored entirely in memory and periodically flushed to disk.
 
+Package: splunkforwarder
+Version: 4.3.5-140437
+Maintainer: Splunk Inc.
+Architecture: amd64
+Priority: extra
+Section: extra
+Filename: pool/main/s/splunkforwarder/splunkforwarder_4.3.5-140437_amd64.deb
+Size: 19120528
+SHA256: 54a59366fd47223a72ab78eddba5c1e3749b0c8f28b3febfc82ab230c83067f6
+SHA1: 836684a0d4f32d06c7da5ab2f19671b8f2612436
+MD5sum: c7210ec8ebff4a4eb5b530275114473f
+Description: Splunk Agent
+ Copyright: (C) 2005-2012 Splunk Inc. All Rights Reserved.
+ Splunk is the search engine for Operational Intelligence.
+
