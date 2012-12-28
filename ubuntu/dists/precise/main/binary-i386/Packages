@@ -17,7 +17,7 @@ Description: Python helper to create, join and rebalance CouchBase clusters
  on EC2 tags and either create of join an existing one
 
 Package: cg-metadata-helper
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: Matteo Sessa <matteo.sessa@catchoftheday.com.au>
 Installed-Size: 42
@@ -25,11 +25,11 @@ Depends: python
 Homepage: http://www.cgws.com.au/
 Priority: optional
 Section: misc
-Filename: pool/main/c/cg-metadata-helper/cg-metadata-helper_1.0.1_all.deb
-Size: 6606
-SHA256: 5dd949d50563d1ec9196b03769c5f0c4882111e817549c4f8731a873aa9e45c5
-SHA1: 7f1a644a8fe6ba20cbb12a0335c9d4a148f49c3e
-MD5sum: 47541cb1e72ad715b5125d8474d6c06c
+Filename: pool/main/c/cg-metadata-helper/cg-metadata-helper_1.0.2_all.deb
+Size: 6724
+SHA256: ec58ede3dd0572447dce3f2357f0d0ceb5a0c71e1a3cdc4f771f0d9d4222faba
+SHA1: 0f5628ca99cf21d23f868108fe09da30a582a184
+MD5sum: b03acfd093e1bc527fc6007dfddd31a7
 Description: Python helper for retrieving both general and CGWS specific EC2/CF tags
  This python helper can retrieve EC2 and CloudFormation metadata
  for either generic information and CGWS infrastructure specific data

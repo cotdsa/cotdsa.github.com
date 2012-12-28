@@ -1,19 +1,19 @@
 Origin: Ubuntu
 Codename: precise
-Date: Fri, 21 Dec 2012 09:06:27 UTC
+Date: Fri, 28 Dec 2012 05:05:54 UTC
 Architectures: amd64 i386
 Components: main
 Description: Ubuntu Precise mirror
 MD5Sum:
- 3ee147f5ffb0237dbb5524f10a530e54 8352 main/binary-amd64/Packages
- 466e2e2106e0f5e0b342f3c88b632687 3746 main/binary-amd64/Packages.gz
- cbf53973b47efa48ccc66187fcebb99d 3777 main/binary-amd64/Packages.bz2
+ 2ac529966a18d2ab7a9b7078c48a01bf 8352 main/binary-amd64/Packages
+ 6dd301174798d8081927f62528f7f88c 3743 main/binary-amd64/Packages.gz
+ ebf50dc33cf596d39139d0db7eeae4df 3792 main/binary-amd64/Packages.bz2
  5e4f5bfc1bdb6e15df0f8e9e14046b99 86 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
- 944580ed570a71aeff37f6f66a134c9f 3199 main/binary-i386/Packages
- f9cd9dd4d9da5d1f5e5e1733f5999c15 1511 main/binary-i386/Packages.gz
- fac9bfe57e33c015fd0428f7e173aca9 1666 main/binary-i386/Packages.bz2
+ 1d1e7de56331bd18179f91c053fbbd25 3199 main/binary-i386/Packages
+ 92c868b5aba4e301d63fd132c2b37b5d 1508 main/binary-i386/Packages.gz
+ de306490a66113e6b56cf169d16619aa 1666 main/binary-i386/Packages.bz2
  d597078f7eeabd9d657bf43cb0d3de24 85 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
@@ -28,15 +28,15 @@ MD5Sum:
  782ca19b215f3b9c0c0f69f521f2591d 423 Contents-i386.gz
  8793bc9c215fc41ca8b83166de1eb35b 509 Contents-i386.bz2
 SHA1:
- 2288913a470a579337676f64c5038bedbc3eb22d 8352 main/binary-amd64/Packages
- 050a759f7a253535a6aff8167bdb583c2dba7ca7 3746 main/binary-amd64/Packages.gz
- c20aca36858874bf2fbc7feb0fa9744fbc494460 3777 main/binary-amd64/Packages.bz2
+ 725fc1a67063cd230bc57bf71a49e6e5a351e015 8352 main/binary-amd64/Packages
+ 367a806cbdd6eb0ea64f964766720d1cdd58fb1d 3743 main/binary-amd64/Packages.gz
+ 8548086815b9e4ba045618ab20b3e8e8191cd544 3792 main/binary-amd64/Packages.bz2
  1fe30f094e6b404becdc4e3d86441514b48b5905 86 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
- 79a10b33bb8e90e60eaea625dbb4bdd222b31256 3199 main/binary-i386/Packages
- 83cdae612c1e18c92701ed4c22aa750bf8004910 1511 main/binary-i386/Packages.gz
- 34b3f1310611adf76f40838f277243fe7cc45875 1666 main/binary-i386/Packages.bz2
+ 80febe7eb3dfa4b9edbf9407fa437a3aeeb7af63 3199 main/binary-i386/Packages
+ e1722a318b1e4af2cd50fc8ea437fa4770c44d13 1508 main/binary-i386/Packages.gz
+ dcebb187607b47b5c97eadbcb0c228780171c116 1666 main/binary-i386/Packages.bz2
  d81c66d4ced9fce81f0f403386e5c7a2f789a7f3 85 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
@@ -51,15 +51,15 @@ SHA1:
  c305d7352c526097410f13402a632b666e410b0b 423 Contents-i386.gz
  9219bb476a64ed200b2c8fa617e61c1751b39200 509 Contents-i386.bz2
 SHA256:
- 80064e99096e5085fb20387d3afb46784cc4da34e62d2dc7c7a06aef39b7e941 8352 main/binary-amd64/Packages
- 7bd2020e85208ffef791433d7f9aaa1265414b48169b8abe7dbc566a6ec7ac36 3746 main/binary-amd64/Packages.gz
- 7c34e800334f21e2e00f730684d3704fb0833e2455962bdc393b84164ed17af8 3777 main/binary-amd64/Packages.bz2
+ cc3f418e9cdd320af2b2c53fd51bec20521686385a27c101dc27197a146367c9 8352 main/binary-amd64/Packages
+ f580d548d3b3c507bfc1125d9459d13e81fce7e7aeed5bc5aa816b1eb67f2ec6 3743 main/binary-amd64/Packages.gz
+ 6a40bfea05df423a36436e6ce9e357fafa118f9c6000ada778d2a17788275fb2 3792 main/binary-amd64/Packages.bz2
  03f4bd6cdc44f67f1d46e22d48900ffb4b4c73b738e942980643fb96a2a6f145 86 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
- 79e52d3a2e5f91f09a8035182be9b9940af9fd14e0cd7e27aef1056472219e4e 3199 main/binary-i386/Packages
- 3b4cdbd73d7fd3d13c98437c261eb0f167de3cebadd9d536808e7b18b56265ee 1511 main/binary-i386/Packages.gz
- 0883d33ce375809718e11b39af8e7dd4efc13c27d1ac838aefa6f1555badf077 1666 main/binary-i386/Packages.bz2
+ 8c1807a724338a333e3994a9353c84339b8da2400bcc8358172e95cc27a0c9de 3199 main/binary-i386/Packages
+ b8fab996cd94f369110ee2eaa6ef6acdea5662ee6c749a3d2f1e096e25740981 1508 main/binary-i386/Packages.gz
+ 04089b0ed729238aa2780d3b99a944de80237a22cb3ec6fd40a962a3fc8e0283 1666 main/binary-i386/Packages.bz2
  1a5864ba6b56d473b2a5ffe32f857b6fc8e411a8872aa8771b5e38809c4f9427 85 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
