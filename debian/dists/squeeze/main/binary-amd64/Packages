@@ -47,6 +47,27 @@ Description: Python helper for retrieving both general and CGWS specific EC2/CF 
  This python helper can retrieve EC2 and CloudFormation metadata
  for either generic information and CGWS infrastructure specific data
 
+Package: couchbase-server
+Version: 2.0.0
+Architecture: amd64
+Maintainer: Couchbase <support@couchbase.com>
+Installed-Size: 354980
+Depends: libc6 (>= 2.11), libgcc1 (>= 1:4.1.1), libncurses5 (>= 5.6+20071006-3), libssl0.9.8 (>= 0.9.8k-1), libstdc++6 (>= 4.4.0), zlib1g (>= 1:1.1.4), lsb-base (>= 3.2)
+Breaks: membase-server
+Replaces: membase-server
+Homepage: http://couchbase.com
+Priority: extra
+Section: web
+Filename: pool/main/c/couchbase-server/couchbase-server_2.0.0_amd64.deb
+Size: 120539686
+SHA256: 04a36918cd450ba405250f65aa9f5d82e531df98c3f02d72db907a97edf674d9
+SHA1: a808dece6f69559a38692f13072e4e6ce12011b2
+MD5sum: 3a0e97ee321395f0dd81864e1c723496
+Description: Couchbase Server
+ Couchbase Server is the leading distribution of memcached and
+ couchbase, created and supported by top contributors to the memcached
+ and couchbase open source projects.
+
 Package: libpam-ttyaudit
 Source: pam
 Version: 1.1.1-6.1+squeeze1
