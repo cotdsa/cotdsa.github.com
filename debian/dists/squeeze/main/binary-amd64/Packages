@@ -132,3 +132,20 @@ MD5sum: 5a43739b8abaa71d32d509a7fa06697e
 Description: PAM module to enable kernel tty audit logging
  This package includes libpam_tty_audit, a PAM module.
 
+Package: mod-pagespeed-stable
+Version: 1.1.23.2-r2258
+Architecture: amd64
+Maintainer: mod_pagespeed developers <mod-pagespeed-dev@googlegroups.com>
+Installed-Size: 11048
+Pre-Depends: dpkg (>= 1.14.0)
+Depends: apache2.2-common, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1-21), libstdc++6 (>= 4.2.1-4)
+Priority: optional
+Section: httpd
+Filename: pool/main/m/mod-pagespeed-stable/mod-pagespeed-stable_1.1.23.2-r2258_amd64.deb
+Size: 4396034
+SHA256: e45390b7edf3c6f78e9319c92266ba9ed23d9a9f95a8ca5ebff138db6a6359cc
+SHA1: e31d045f8c126d5b45455088ea8a12e3d5435e5d
+MD5sum: 7e52c9c8431274d5ae723516fd173f0f
+Description: Apache 2 module to optimize web content.
+ mod_pagespeed is an Apache module that aims to speed up load time of pages by applying web performance best practices automatically.
+
