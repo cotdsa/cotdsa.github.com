@@ -69,46 +69,48 @@ Description: Couchbase Server
  and couchbase open source projects.
 
 Package: elasticsearch
-Version: 0.19.7
+Version: 0.20.4
 Architecture: all
-Depends: java7-runtime-headless | java6-runtime-headless | java7-runtime | java6-runtime
-Installed-Size: 15272
+Depends: libc6, adduser, java7-runtime-headless | java6-runtime-headless | java7-runtime | java6-runtime
+Installed-Size: 17460
 Maintainer: Nicolas Huray <nicolas.huray@gmail.com>
 Priority: optional
 Section: web
-Filename: pool/main/e/elasticsearch/elasticsearch_0.19.7_all.deb
-Size: 13326496
-SHA256: 889edc02079c88fa98130fec7d3db675ed9da9b7bf669c54d89101880a5e78cd
-SHA1: 0f6cad463c607171a956bc7f554f9c4255fb6fa8
-MD5sum: cbd1901f231b8f4fed9f0c549cf1c286
+Filename: pool/main/e/elasticsearch/elasticsearch_0.20.4_all.deb
+Size: 15414486
+SHA256: df7e4b88cbf96b5179b991d6db670bb1936180b3717c7298b1013dc62aede0c5
+SHA1: ab3f34ca09212eb5f3272608b169dd97958356cb
+MD5sum: 4f91136768db61554c4079d32bd5c1f8
 Description: Open Source, Distributed, RESTful Search Engine
  ElasticSearch is a distributed RESTful search engine built for the cloud. 
  .
  Features include:
  .
- * Distributed and Highly Available Search Engine.
+ + Distributed and Highly Available Search Engine.
   - Each index is fully sharded with a configurable number of shards.
   - Each shard can have one or more replicas.
   - Read / Search operations performed on either one of the replica shard.
- * Multi Tenant with Multi Types.
+ + Multi Tenant with Multi Types.
   - Support for more than one index.
   - Support for more than one type per index.
   - Index level configuration (number of shards, index storage, ...).
- * Various set of APIs
+ + Various set of APIs
   - HTTP RESTful API
   - Native Java API.
   - All APIs perform automatic node operation rerouting.
- * Document oriented
+ + Document oriented
   - No need for upfront schema definition.
   - Schema can be defined per type for customization of the indexing process.
- * Reliable, Asynchronous Write Behind for long term persistency.
- * (Near) Real Time Search.
- * Built on top of Lucene
+ + Reliable, Asynchronous Write Behind for long term persistency.
+ + (Near) Real Time Search.
+ + Built on top of Lucene
   - Each shard is a fully functional Lucene index
-  - All the power of Lucene easily exposed through simple configuration / plugins.
- * Per operation consistency
-  - Single document level operations are atomic, consistent, isolated and durable.
- * Open Source under Apache 2 License.
+  - All the power of Lucene easily exposed through simple 
+    configuration/plugins.
+ + Per operation consistency
+  - Single document level operations are atomic, consistent, isolated and
+    durable.
+ + Open Source under Apache 2 License.
 Homepage: http://www.elasticsearch.org/
 
 Package: libpam-ttyaudit
