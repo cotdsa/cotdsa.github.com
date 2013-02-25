@@ -68,6 +68,24 @@ Description: Couchbase Server
  couchbase, created and supported by top contributors to the memcached
  and couchbase open source projects.
 
+Package: diamond
+Version: 3.3.225
+Architecture: all
+Maintainer: Rob Smith <kormoc@gmail.com>
+Installed-Size: 2980
+Depends: python (>= 2.4), python-support (>= 0.90.0), python-configobj
+Homepage: https://github.com/BrightcoveOS/Diamond
+Priority: extra
+Section: misc
+Filename: pool/main/d/diamond/diamond_3.3.225_all.deb
+Size: 236484
+SHA256: a52592bc1e83824e1e0c5e1159f026b5473e78ff02ae8e7097c739032e8bffd3
+SHA1: cbcba1660512cb28aa763ed271c20cdd66e898ca
+MD5sum: 9acbaa179f5d6cc13e982b03ee6bdcd4
+Description: System statistics collector for Graphite.
+ Diamond is a daemon and toolset for gathering system statistics
+ and publishing them to Graphite.
+
 Package: elasticsearch
 Version: 0.20.4
 Architecture: all
