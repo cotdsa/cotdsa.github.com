@@ -6,36 +6,36 @@ Label: COTD
 Suite: squeeze
 Codename: squeeze
 Version: 6.0
-Date: Mon, 25 Feb 2013 22:26:44 UTC
+Date: Thu, 14 Mar 2013 05:39:34 UTC
 Architectures: amd64
 Components: main
 Description: COTD custom packages
 MD5Sum:
- 76851f229c81c9b6e74a5c1bdd16e57f 6776 main/binary-amd64/Packages
- e5be88682e1fe59378205fa5c1013650 3149 main/binary-amd64/Packages.gz
+ 1990922128f91a4ff5b2daad42f21b77 6776 main/binary-amd64/Packages
+ 8fb69025bbb4e0a323944812ac14ed10 3149 main/binary-amd64/Packages.gz
  d6bcc5a5525180a29fc5078887bedd7c 125 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
 SHA1:
- f5efe9fa64aa77b3027d6565f6f076b81b034eae 6776 main/binary-amd64/Packages
- 4840bd296be86c872555958c22344efe5f8a581a 3149 main/binary-amd64/Packages.gz
+ 76891f47b3d6ff40d4f932a9b6a35031101cc695 6776 main/binary-amd64/Packages
+ e1b7366158312f233d862b2755f13a5de38f67ac 3149 main/binary-amd64/Packages.gz
  328f162964c3cefa272b419a6b9cda48148a208b 125 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
 SHA256:
- ab93870faa09ff99e986574e6e3522b7b1aefb41178ec35cee9015ec3be5f3d4 6776 main/binary-amd64/Packages
- a0216af1948623bb4496d2ac8e9c176aae1ec4e97721840fd79154886ea8c6aa 3149 main/binary-amd64/Packages.gz
+ 9cf0b320b6bcebb6a11cb3a7ef01b262b8d005a384d0d22c1dbba281eb456e93 6776 main/binary-amd64/Packages
+ 6dc7cb6eb19503a04b60ad8c134da8c3bd570c7d05829d895432596a91435122 3149 main/binary-amd64/Packages.gz
  68627144fc0faf55dfd7c3d56e1b8012d41238128def0417a7da5342682560dc 125 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iQEcBAEBAgAGBQJRK+UkAAoJEBOLGUmtm+LLqh0IAJu9HjQK0UkwvCZPUrl2m8um
-AKvKkXbA58eYYx2BPpHpN93vzFCvf1qujojKhZudEhARTq3Lxv5Mt0pdRGfktEwB
-QNXeEazKhanAiV/BS1Q4ItApvQf1UWiQRgO9jqECn5r8OU39F0UMyj6bRQtDdqbL
-rpkyqO9l5FgUtE7otUDrgATipLyDa8DOpgwOyYSKMB/g8HOATmSWi3Rv0bo/oXa7
-EB/hFvCSFN7fTD3RGKzOs63aqWbzTM5eDJZ4mz0qIm0CkMHr1qnieyojaSn+jsN1
-eWQkEAx+akCmRZWjR5tFIm/B8aMpwcIEhdDLvugPIQplkb7Kp+w3/NbYJcmV/0M=
-=JC0N
+iQEcBAEBAgAGBQJRQWKWAAoJEBOLGUmtm+LLSeQH/2fpzZFRn3vtvdTbiSMZ9iMa
+c4k4AFOQXbROnQENK8+TmDqSlirZcxwOzd8P9S+BQX74NoZPVIXW2H+mH/qtWGYi
+PSti4BlwUZJ4uh5fgmJYvs+FU3NyxZGYL2PPctgBxoU0DdnaM6kkmy2TIJGIn7sA
+QyFWGME42LXi+0Vk0l4tiw71hjxFPNtRUN2ONuMSRGU94tea+nWPy+Olw6TDZDo6
+JgXt0HiGrTkDijrG42zwvM73/9krImAzNlFj1AjGQoljSIKwdMRHwROC/3JObPXB
+7x5P/++cpnvCWaBPDYbMa6x/6B+ik8POCc3zaQCy/AmjMQY7FEwZ+K60TPITZPE=
+=m2KH
 -----END PGP SIGNATURE-----
