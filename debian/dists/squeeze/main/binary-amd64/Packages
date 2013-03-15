@@ -167,3 +167,46 @@ MD5sum: 7e52c9c8431274d5ae723516fd173f0f
 Description: Apache 2 module to optimize web content.
  mod_pagespeed is an Apache module that aims to speed up load time of pages by applying web performance best practices automatically.
 
+Package: openssh-cg-server
+Source: openssh
+Version: 1:5.9p1-5ubuntu2
+Architecture: amd64
+Maintainer: Colin Watson <cjwatson@ubuntu.com>
+Installed-Size: 807
+Depends: libc6 (>= 2.15), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.0), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, openssh-client, upstart-job, libpam-runtime, libpam-modules, adduser, dpkg, lsb-base, procps
+Recommends: xauth, ssh-import-id
+Suggests: ssh-askpass, rssh, molly-guard, openssh-blacklist, openssh-blacklist-extra, ufw, monkeysphere
+Conflicts: openssh-server, rsh-client (<< 0.16.1-1), sftp, ssh (<< 1:3.8.1p1-9), ssh-krb5 (<< 1:4.3p2-7), ssh-nonfree (<< 2), ssh-socks, ssh2
+Replaces: openssh-client (<< 1:3.8.1p1-11), openssh-server, ssh, ssh-krb5
+Provides: openssh-server, ssh-server
+Multi-Arch: foreign
+Homepage: http://www.openssh.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openssh/openssh-cg-server_5.9p1-5ubuntu2_amd64.deb
+Size: 339724
+SHA256: 8b88ba9528c83df7eea3274803001ac31908f0a15729e2889f93d528e391bd89
+SHA1: 2cb62c54697f37fa3a4c4e0319c846c07577514b
+MD5sum: 0299bbd4e50a936abdca1712e48f7143
+Description: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of
+ the Secure Shell protocol as specified by the IETF secsh working
+ group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine
+ and for executing commands on a remote machine.
+ It provides secure encrypted communications between two untrusted
+ hosts over an insecure network. X11 connections and arbitrary TCP/IP
+ ports can also be forwarded over the secure channel.
+ It can be used to provide applications with a secure communication
+ channel.
+ .
+ This package provides the sshd server.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+ .
+ sshd replaces the insecure rshd program, which is obsolete for most
+ purposes.
+Original-Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
+
