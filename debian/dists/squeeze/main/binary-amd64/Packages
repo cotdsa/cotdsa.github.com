@@ -30,19 +30,19 @@ Description: The GNU Bourne Again SHell
  the bash-completion package.
 
 Package: cg-metadata-helper
-Version: 1.0.2
+Version: 1.0.3
 Architecture: all
 Maintainer: Matteo Sessa <matteo.sessa@catchoftheday.com.au>
-Installed-Size: 42
+Installed-Size: 43
 Depends: python
 Homepage: http://www.cgws.com.au/
 Priority: optional
 Section: misc
-Filename: pool/main/c/cg-metadata-helper/cg-metadata-helper_1.0.2_all.deb
-Size: 6724
-SHA256: ec58ede3dd0572447dce3f2357f0d0ceb5a0c71e1a3cdc4f771f0d9d4222faba
-SHA1: 0f5628ca99cf21d23f868108fe09da30a582a184
-MD5sum: b03acfd093e1bc527fc6007dfddd31a7
+Filename: pool/main/c/cg-metadata-helper/cg-metadata-helper_1.0.3_all.deb
+Size: 6774
+SHA256: 783208d324d843ff0154698cafd741a80dd7bfc640784637983c66808b6010e7
+SHA1: 921a4c89f1f6cab1c3aa04eb9b4e096f5a5aa2da
+MD5sum: 4c80c656aad812cbd9fcbac552105c13
 Description: Python helper for retrieving both general and CGWS specific EC2/CF tags
  This python helper can retrieve EC2 and CloudFormation metadata
  for either generic information and CGWS infrastructure specific data
