@@ -55,6 +55,23 @@ Description: Couchbase Server
  couchbase, created and supported by top contributors to the memcached
  and couchbase open source projects.
 
+Package: duoauthproxy
+Version: 1.0
+License: unknown
+Vendor: root@precise64
+Architecture: amd64
+Maintainer: <root@precise64>
+Installed-Size: 34518
+Homepage: http://example.com/no-uri-given
+Priority: extra
+Section: default
+Filename: pool/main/d/duoauthproxy/duoauthproxy_1.0_amd64.deb
+Size: 9539336
+SHA256: 411870f77a49a72297c84394839040b5f85f5c1e8f1b8d62e1883ac4fcf0e342
+SHA1: e4c12a38791e3582d4c848bc38de6c0f891d7deb
+MD5sum: a5d2f74e519c3f4cf679a220efd37278
+Description: no description given
+
 Package: elasticsearch
 Version: 0.20.1
 Architecture: all
