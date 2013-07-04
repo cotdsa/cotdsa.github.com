@@ -177,6 +177,22 @@ Description: secure shell (SSH) server, for secure access from remote machines
  purposes.
 Original-Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
 
+Package: openvpn-as
+Version: 1.8.5-Ubuntu12
+Architecture: amd64
+Depends: iptables
+Maintainer: info <info@openvpn.net>
+Installed-Size: 50940
+Priority: optional
+Section: net
+Filename: pool/main/o/openvpn-as/openvpn-as_1.8.5-Ubuntu12_amd64.deb
+Size: 24669388
+SHA256: 77880ef40b8f8e6569d2e09f3dee824b3d06c8862cdd9a108ab4ca28584b4ccb
+SHA1: ae9cefcf1599e0056a5188eac5a3ad8552cb91bf
+MD5sum: 73e693bebfc0c71c26f98a3e6eebca16
+Description: openvpn-as
+ OpenVPN Access Server version 1.8.5 for Ubuntu12 amd64
+
 Package: redis-server
 Source: redis
 Version: 2:2.6.7-1~dotdeb.0
