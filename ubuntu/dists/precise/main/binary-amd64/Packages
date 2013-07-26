@@ -1,17 +1,17 @@
 Package: cg-awsattr
-Version: 0.9.2
+Version: 0.9.3
 Architecture: all
 Maintainer: Matteo Sessa <matteo.sessa@catchoftheday.com.au>
-Installed-Size: 42
+Installed-Size: 44
 Depends: python
 Homepage: http://www.cgws.com.au/
 Priority: optional
 Section: misc
-Filename: pool/main/c/cg-awsattr/cg-awsattr_0.9.2_all.deb
-Size: 6858
-SHA256: 1f1e1d9e34adbc8506e3bc38b5dc527872ee58cfb1cc2bc1b1de770a96f43bc8
-SHA1: 9e45d8a8cb59fe15a04282e8edae6b4a56f4f95f
-MD5sum: 679df81589346ea2e9722cbc011c395b
+Filename: pool/main/c/cg-awsattr/cg-awsattr_0.9.3_all.deb
+Size: 6896
+SHA256: 33c096bbb80592d8f51673a04fda4ae07ce36ec48f0b9976f74dd7b1238b9006
+SHA1: 8d749632390a07a583eb85c3f178cca738ae6b77
+MD5sum: 8c4c75c7ae327cf84b815836b798baa3
 Description: Python helper for retrieving metadata and attributes from various
  AWS locations, such as instance metadata, instance and VPC tags as well as CloudFormation
  resource
