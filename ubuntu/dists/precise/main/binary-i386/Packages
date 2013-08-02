@@ -1,16 +1,16 @@
 Package: cg-awsattr
-Version: 0.9.4
+Version: 0.9.5
 Architecture: all
 Maintainer: msessa <matteo.sessa@catchoftheday.com.au>
 Installed-Size: 31
 Depends: python, python-cg-awsattr
 Priority: optional
 Section: python
-Filename: pool/main/c/cg-awsattr/cg-awsattr_0.9.4_all.deb
-Size: 3276
-SHA256: 5fab58c361a4403189c1c9c7acf72ae2e946f1098f2fab7b2ea951b1c0618b49
-SHA1: 1bf14a27ee0ff5dfc09a17bc05e73ef184ab21d6
-MD5sum: 3ef63f873d0079bd39be3db6b603c21a
+Filename: pool/main/c/cg-awsattr/cg-awsattr_0.9.5_all.deb
+Size: 3308
+SHA256: a9766657f23275ff4c65f7975c9cba5004fc2238dbbfe116d6cd68aed0ee6593
+SHA1: 0873b9c2430066d7f0c7b8bdfb89428877e63508
+MD5sum: de89cf1fdae71f9a8c695cdd9b947dda
 Description: Command line interface to the awsattr python library
 
 Package: cg-couchbase-cluster-helper
@@ -96,18 +96,18 @@ Homepage: http://www.elasticsearch.org/
 
 Package: python-cg-awsattr
 Source: cg-awsattr
-Version: 0.9.4
+Version: 0.9.5
 Architecture: all
 Maintainer: msessa <matteo.sessa@catchoftheday.com.au>
 Installed-Size: 62
 Depends: python
 Priority: optional
 Section: python
-Filename: pool/main/c/cg-awsattr/python-cg-awsattr_0.9.4_all.deb
-Size: 6584
-SHA256: fee12c3f1fb995cb08c490aba507c3c91fe75e7fade355e47c6c857511f940a6
-SHA1: 911ce8b16aaec1de0f2537203b51210215ec08b1
-MD5sum: 77304ddf017267d4b9f653a4e6e32ae7
+Filename: pool/main/c/cg-awsattr/python-cg-awsattr_0.9.5_all.deb
+Size: 6632
+SHA256: fc7c600299631c957cd9a9322161f75e5a42beb909425a32baff09a6b25cc58e
+SHA1: 9a79870cd191567a8f305b5af86589d8d0fe169a
+MD5sum: 44b7ffc4e1ef5b08522ad59b7339c17c
 Description: Python class for retrieving metadata and attributes from various
  AWS locations, such as instance metadata, instance and VPC tags as well as CloudFormation
  resource
