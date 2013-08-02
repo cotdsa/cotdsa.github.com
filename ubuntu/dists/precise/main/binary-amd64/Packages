@@ -1,20 +1,17 @@
 Package: cg-awsattr
-Version: 0.9.3
+Version: 0.9.4
 Architecture: all
-Maintainer: Matteo Sessa <matteo.sessa@catchoftheday.com.au>
-Installed-Size: 44
-Depends: python
-Homepage: http://www.cgws.com.au/
+Maintainer: msessa <matteo.sessa@catchoftheday.com.au>
+Installed-Size: 31
+Depends: python, python-cg-awsattr
 Priority: optional
-Section: misc
-Filename: pool/main/c/cg-awsattr/cg-awsattr_0.9.3_all.deb
-Size: 6896
-SHA256: 33c096bbb80592d8f51673a04fda4ae07ce36ec48f0b9976f74dd7b1238b9006
-SHA1: 8d749632390a07a583eb85c3f178cca738ae6b77
-MD5sum: 8c4c75c7ae327cf84b815836b798baa3
-Description: Python helper for retrieving metadata and attributes from various
- AWS locations, such as instance metadata, instance and VPC tags as well as CloudFormation
- resource
+Section: python
+Filename: pool/main/c/cg-awsattr/cg-awsattr_0.9.4_all.deb
+Size: 3276
+SHA256: 5fab58c361a4403189c1c9c7acf72ae2e946f1098f2fab7b2ea951b1c0618b49
+SHA1: 1bf14a27ee0ff5dfc09a17bc05e73ef184ab21d6
+MD5sum: 3ef63f873d0079bd39be3db6b603c21a
+Description: Command line interface to the awsattr python library
 
 Package: cg-couchbase-cluster-helper
 Version: 0.9.9
@@ -210,6 +207,24 @@ SHA1: ae9cefcf1599e0056a5188eac5a3ad8552cb91bf
 MD5sum: 73e693bebfc0c71c26f98a3e6eebca16
 Description: openvpn-as
  OpenVPN Access Server version 1.8.5 for Ubuntu12 amd64
+
+Package: python-cg-awsattr
+Source: cg-awsattr
+Version: 0.9.4
+Architecture: all
+Maintainer: msessa <matteo.sessa@catchoftheday.com.au>
+Installed-Size: 62
+Depends: python
+Priority: optional
+Section: python
+Filename: pool/main/c/cg-awsattr/python-cg-awsattr_0.9.4_all.deb
+Size: 6584
+SHA256: fee12c3f1fb995cb08c490aba507c3c91fe75e7fade355e47c6c857511f940a6
+SHA1: 911ce8b16aaec1de0f2537203b51210215ec08b1
+MD5sum: 77304ddf017267d4b9f653a4e6e32ae7
+Description: Python class for retrieving metadata and attributes from various
+ AWS locations, such as instance metadata, instance and VPC tags as well as CloudFormation
+ resource
 
 Package: redis-server
 Source: redis
