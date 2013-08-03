@@ -49,6 +49,21 @@ Description: Python helper for retrieving both general and CGWS specific EC2/CF 
  This python helper can retrieve EC2 and CloudFormation metadata
  for either generic information and CGWS infrastructure specific data
 
+Package: cg-pkencrypt
+Version: 1.0.0
+Architecture: all
+Maintainer: msessa <matteo.sessa@catchoftheday.com.au>
+Installed-Size: 50
+Depends: python, python-cg-awsattr, python-rsa
+Priority: optional
+Section: python
+Filename: pool/main/c/cg-pkencrypt/cg-pkencrypt_1.0.0_all.deb
+Size: 4136
+SHA256: d8555e99194f313e03be59c8da9bc6c53739971716dbddaba215a5c0b934a0c8
+SHA1: f9e34be7c5cffdfcd81ce80c9f8b00d186f8ab36
+MD5sum: 75f13e5d75974540596a9542c8430f58
+Description: CLI tool that uses AWS EC2 rsa keys to encrypt small input data
+
 Package: cg-wchsignal
 Version: 1.0.0
 Architecture: all
