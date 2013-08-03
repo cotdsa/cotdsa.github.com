@@ -127,3 +127,19 @@ Description: Python class for retrieving metadata and attributes from various
  AWS locations, such as instance metadata, instance and VPC tags as well as CloudFormation
  resource
 
+Package: python-rsa
+Source: rsa
+Version: 3.1.1-1
+Architecture: all
+Maintainer: Sybren A. Stuvel <sybren@stuvel.eu>
+Installed-Size: 173
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-pyasn1
+Priority: optional
+Section: python
+Filename: pool/main/r/rsa/python-rsa_3.1.1-1_all.deb
+Size: 33460
+SHA256: 6a4d1c2cd071acce39d6248de05002437261c0b2168e9a5c1a1977bdab4b6729
+SHA1: ab55441ca8a0e51865d91e1cbce2612e8bd1f49b
+MD5sum: f71d867b70e3ebf6183f3283a8be641d
+Description: Pure-Python RSA implementation
+
