@@ -65,18 +65,18 @@ MD5sum: 75f13e5d75974540596a9542c8430f58
 Description: CLI tool that uses AWS EC2 rsa keys to encrypt small input data
 
 Package: cg-wchsignal
-Version: 1.0.0
+Version: 1.1.0
 Architecture: all
 Maintainer: msessa <matteo.sessa@catchoftheday.com.au>
 Installed-Size: 49
 Depends: python, python-cg-awsattr, python-requests
 Priority: optional
 Section: python
-Filename: pool/main/c/cg-wchsignal/cg-wchsignal_1.0.0_all.deb
-Size: 4032
-SHA256: 221e4ab9c670d84077b0e1c2776960cf6afda2f7481a1b7151047541d6b65d98
-SHA1: ca9cf707586dd197829391cecf746cd90a52d7c0
-MD5sum: 1c77a2897584181e1c18ae1d9627c3f8
+Filename: pool/main/c/cg-wchsignal/cg-wchsignal_1.1.0_all.deb
+Size: 4018
+SHA256: c8f91804e3834fe613ece23a0f4cf8c71f1bd075b58bfaebc211f88d9cfaa72f
+SHA1: eb2f806c54240474189db7d193f3e7c5dd475012
+MD5sum: 73d9a4965656081e3175567f5ebd6777
 Description: CLI to signal custom data to a CloudFormation WaitCondition
 
 Package: elasticsearch
