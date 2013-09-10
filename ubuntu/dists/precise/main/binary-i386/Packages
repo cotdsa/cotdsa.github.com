@@ -14,7 +14,7 @@ MD5sum: de89cf1fdae71f9a8c695cdd9b947dda
 Description: Command line interface to the awsattr python library
 
 Package: cg-couchbase-cluster-helper
-Version: 0.9.9
+Version: 1.0.0
 Architecture: all
 Maintainer: Matteo Sessa <matteo.sessa@catchoftheday.com.au>
 Installed-Size: 48
@@ -22,11 +22,11 @@ Depends: python
 Homepage: http://www.cgws.com.au/
 Priority: optional
 Section: misc
-Filename: pool/main/c/cg-couchbase-cluster-helper/cg-couchbase-cluster-helper_0.9.9_all.deb
-Size: 7370
-SHA256: b573dcdab34488cb6d58acc9707bfa54afc0b98f23143efb47d5ed95260becd3
-SHA1: c66385f6d2420694a944b9ecf78b0f3fe61fc7d2
-MD5sum: f07ec9268850524a2f7adb0a663b1c3d
+Filename: pool/main/c/cg-couchbase-cluster-helper/cg-couchbase-cluster-helper_1.0.0_all.deb
+Size: 7384
+SHA256: 99b6479126b4f5fcdd1495d2b62d20bec8b4f9c549b79797d74275c06b9c408d
+SHA1: 6f33109fde565ad8d741d724d52fb1d73d17186c
+MD5sum: ed1a34eb8e2aad89ec20c5deeac5d0b3
 Description: Python helper to create, join and rebalance CouchBase clusters
  This python helper can detect running CouchBase cluster based
  on EC2 tags and either create of join an existing one
