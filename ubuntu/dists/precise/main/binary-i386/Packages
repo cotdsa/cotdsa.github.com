@@ -80,19 +80,19 @@ MD5sum: 73d9a4965656081e3175567f5ebd6777
 Description: CLI to signal custom data to a CloudFormation WaitCondition
 
 Package: diamond
-Version: 3.4.48
+Version: 3.4.50
 Architecture: all
 Maintainer: Rob Smith <kormoc@gmail.com>
-Installed-Size: 2540
+Installed-Size: 2541
 Depends: python (>= 2.4), python-support (>= 0.90.0), python-configobj
 Homepage: https://github.com/BrightcoveOS/Diamond
 Priority: extra
 Section: misc
-Filename: pool/main/d/diamond/diamond_3.4.48_all.deb
-Size: 303028
-SHA256: 6eacdca96b018dfe2dcc02e0da65b5bcfd636d34f11932546680db80664d6a47
-SHA1: 67d30656362b102fbb023fadc4686e7a601317d4
-MD5sum: 3de49f5c9ca346417661c46d8cc1fd83
+Filename: pool/main/d/diamond/diamond_3.4.50_all.deb
+Size: 303464
+SHA256: 33ca8df4595fc0d9137e46b63ad7632c4bd792097bbb0238a75e878301b7ea30
+SHA1: 44d48f2366ec34ccb4300fd019a399baaf6ce5ef
+MD5sum: f5ec5ebb748da0bf8d13604fcf3568be
 Description: System statistics collector for Graphite.
  Diamond is a daemon and toolset for gathering system statistics
  and publishing them to Graphite.
