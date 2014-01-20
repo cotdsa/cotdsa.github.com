@@ -3,25 +3,25 @@ Label: COTD
 Suite: squeeze
 Codename: squeeze
 Version: 6.0
-Date: Tue, 02 Apr 2013 07:01:16 UTC
+Date: Mon, 20 Jan 2014 17:38:27 UTC
 Architectures: amd64
 Components: main
 Description: COTD custom packages
 MD5Sum:
- 4cff29983692f6f315c7092468b5bf80 8914 main/binary-amd64/Packages
- 3bae498e5c6bf9483b213db1ffbacaf9 4052 main/binary-amd64/Packages.gz
+ c8fc01a8739917acc4130e31cf4c158f 8912 main/binary-amd64/Packages
+ 4cec96ac46c5bad0df90be2d0119cf25 4058 main/binary-amd64/Packages.gz
  d6bcc5a5525180a29fc5078887bedd7c 125 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
 SHA1:
- 144e4230cb9391576d45c89c4430fc5e02eb313e 8914 main/binary-amd64/Packages
- c161c85e2f8ac18bb56629375a9f06607d49125b 4052 main/binary-amd64/Packages.gz
+ 58bdffbaeb6af598a949e9f3b89caf659576f453 8912 main/binary-amd64/Packages
+ 4f6732f1fc5e25ba17637f2eea88601b19da6b2a 4058 main/binary-amd64/Packages.gz
  328f162964c3cefa272b419a6b9cda48148a208b 125 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
 SHA256:
- 97bcbc20e116be838aa37c2f3e0f9803ab55fd3c4ad1988f332843cb3d7c0f8c 8914 main/binary-amd64/Packages
- 250e6b9a96028604a0f733bc3f175aaf64013f261242c53961abb78e36b97eac 4052 main/binary-amd64/Packages.gz
+ eeab9e1f88281c246599b5c2becfc0ee5edc3b9ca921d1326090e2abeb8d124a 8912 main/binary-amd64/Packages
+ aa700ebe17d423b5b16599f9b6d41436d9eaa76f3cb56ba9e676d49f3c17c2b2 4058 main/binary-amd64/Packages.gz
  68627144fc0faf55dfd7c3d56e1b8012d41238128def0417a7da5342682560dc 125 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
