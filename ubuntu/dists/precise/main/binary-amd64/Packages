@@ -136,18 +136,18 @@ MD5sum: a5d2f74e519c3f4cf679a220efd37278
 Description: no description given
 
 Package: elasticsearch
-Version: 0.20.1
+Version: 0.90.10
 Architecture: all
-Depends: libc6, adduser, java7-runtime-headless | java6-runtime-headless | java7-runtime | java6-runtime
-Installed-Size: 17422
-Maintainer: Nicolas Huray <nicolas.huray@gmail.com>
+Depends: libc6, adduser
+Installed-Size: 19769
+Maintainer: Elasticsearch Team <info@elasticsearch.com>
 Priority: optional
 Section: web
-Filename: pool/main/e/elasticsearch/elasticsearch_0.20.1_all.deb
-Size: 15380488
-SHA256: a3297984424c17b17eda23ccad0ebca518284464ae5430c6afd5ae4a0273f9a8
-SHA1: f3d83705d0d28b414008e8ef26c82369bd6d50c6
-MD5sum: 845f59adce7d78ace27f74239fd76f92
+Filename: pool/main/e/elasticsearch/elasticsearch_0.90.10_all.deb
+Size: 17404392
+SHA256: 05debc321324e283719daf73aea5c293491c5086d7f06369b52704a44c25c57e
+SHA1: ac67a8ad7af7ea21cf66f6df29925e68b7283370
+MD5sum: 6e927e1687970d5e8900c45657f03b80
 Description: Open Source, Distributed, RESTful Search Engine
  ElasticSearch is a distributed RESTful search engine built for the cloud. 
  .
