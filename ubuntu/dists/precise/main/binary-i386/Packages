@@ -143,18 +143,18 @@ Description: Open Source, Distributed, RESTful Search Engine
 Homepage: http://www.elasticsearch.org/
 
 Package: logstash
-Version: 1.3.3-2
+Version: 1.3.3-3
 Architecture: all
 Maintainer: Matteo Sessa <matteo.sessa@catchoftheday.com.au>
 Installed-Size: 81028
 Homepage: http://logstash.net/
 Priority: optional
 Section: misc
-Filename: pool/main/l/logstash/logstash_1.3.3-2_all.deb
-Size: 77034388
-SHA256: df512a4a0a5e3d93c5bc695b142cd3c9a3554f830e98e994e0f47a59ba051cbe
-SHA1: d9b59f31117c07625ad59165ed068db467337fa2
-MD5sum: b1f717fdc7e102a3fbd8a77189432fd4
+Filename: pool/main/l/logstash/logstash_1.3.3-3_all.deb
+Size: 77034382
+SHA256: a892d956d93e784587ebaa3433108a2566ece519dd860127db012198f111be8c
+SHA1: 70f2249ccf20fdc0a71302e318245723a829b0bf
+MD5sum: e7478d4a481d3119a2d07d0de6a98a6e
 Description: Stashes logs. The logo is log with mustache. Very fucking funny.
 
 Package: python-cg-awsattr
