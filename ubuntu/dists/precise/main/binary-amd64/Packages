@@ -212,6 +212,56 @@ MD5sum: 99ab72b85720324970415bcc8215cf82
 Description: Apache 2 module to optimize web content.
  mod_pagespeed is an Apache module that aims to speed up load time of pages by applying web performance best practices automatically.
 
+Package: nxlog-ce
+Version: 2.6.1131
+Architecture: amd64
+Maintainer: Botond Botyanszki <boti@nxlog.org>
+Installed-Size: 3703
+Depends: libapr1 (>= 1.4.2), libc6 (>= 2.14), libcap2 (>= 2.10), libdbi1 (>= 0.8.4), libexpat1 (>= 1.95.8), libpcre3 (>= 8.10), libperl5.14 (>= 5.14.2), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4), adduser, openssl, lsb-base
+Suggests: libdbd-mysql, libdbd-pgsql, libdbd-sqlite3, libdbd-freetds
+Priority: optional
+Section: admin
+Filename: pool/main/n/nxlog-ce/nxlog-ce_2.6.1131_amd64.deb
+Size: 1911600
+SHA256: 534b762ee8b50fb16f64391c3937b3e04fe8496969bf4072a5d66dc3f7cc1ac1
+SHA1: 1e63fb3365fa398c8f1d443ec15f778056ec7f2b
+MD5sum: 9c55af44f665a85064a38a93f5f2e149
+Description: Modular, multi-threaded, high-performance log management solution
+ In concept nxlog is similar to syslog-ng or rsyslog but it is not limited to
+ unix and syslog only. It supports different platforms, log sources and formats
+ so nxlog can be an ideal choice to implement a centralized logging system.
+ .
+ It can collect logs from files in various formats, receive logs from the
+ network remotely over UDP, TCP or TLS/SSL on all supported platforms. It
+ supports platform specific sources such as the Windows Eventlog, Linux kernel
+ logs, Android device logs, local syslog etc. Writing and reading logs to/from
+ databases is also supported for many database servers. The collected logs can
+ be stored into files, databases or forwarded to a remote log server using
+ various protocols. The old BSD Syslog and the newer IETF syslog standard (RFC
+ 3164 and RFC 5424-5426) is fully supported by nxlog in addition to other
+ custom formats. A key concept in nxlog is to be able to handle and preserve
+ structured logs so there is no need to convert everything to syslog and then
+ parse these logs again at the other side. It has powerful message filtering,
+ log rewrite and conversion capabilities. Using a lightweight, modular and
+ multithreaded architecture which can scale, nxlog can process hundreds of
+ thousands of events per second.
+ .
+  * Multi-platform - support for Unix (Linux, HPUX, BSD), Windows, Android
+  * Modular architecture through dynamically loadable plugins
+  * Scalable, high-performance I/O - collect messages at blazing speeds (can
+    achieve above 500k EPS)
+  * Message buffering and prioritization - no lost or dropped messages
+  * Simple configuration format with a powerful language similar to Perl
+  * Scheduled tasks and built-in log rotation
+  * Support for different formats such as Syslog, CSV, GELF, JSON, XML,
+    Windows EventLog and even custom formats
+  * Offline processing mode for post processing, conversion or transfer
+  * Event classification and pattern matching
+  * Log message rewrite, conversion between different formats
+  * Secure network transport over SSL
+  * Internationalization for supporting different character sets and on the
+    fly auto-detection of encodings
+
 Package: openssh-cg-server
 Source: openssh
 Version: 1:5.9p1-5ubuntu2
