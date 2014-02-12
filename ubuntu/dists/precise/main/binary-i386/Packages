@@ -98,20 +98,20 @@ Description: System statistics collector for Graphite.
  and publishing them to Graphite.
 
 Package: elasticsearch
-Version: 0.90.10
+Version: 1.0.0
 Architecture: all
 Depends: libc6, adduser
-Installed-Size: 19769
+Installed-Size: 20924
 Maintainer: Elasticsearch Team <info@elasticsearch.com>
 Priority: optional
 Section: web
-Filename: pool/main/e/elasticsearch/elasticsearch_0.90.10_all.deb
-Size: 17404392
-SHA256: 05debc321324e283719daf73aea5c293491c5086d7f06369b52704a44c25c57e
-SHA1: ac67a8ad7af7ea21cf66f6df29925e68b7283370
-MD5sum: 6e927e1687970d5e8900c45657f03b80
+Filename: pool/main/e/elasticsearch/elasticsearch_1.0.0_all.deb
+Size: 18444524
+SHA256: 18baac77fb6a6e3616a38debc128cf5f6b4590421f95b0aae09c6bfa7cebbe50
+SHA1: 34e665f3370f36743b721a202b7bc49d71aa8eb7
+MD5sum: fa5c54fd6df5de3221d1754d5a9fc21a
 Description: Open Source, Distributed, RESTful Search Engine
- ElasticSearch is a distributed RESTful search engine built for the cloud. 
+ Elasticsearch is a distributed RESTful search engine built for the cloud. 
  .
  Features include:
  .
