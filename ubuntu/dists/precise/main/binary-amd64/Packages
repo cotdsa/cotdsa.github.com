@@ -80,21 +80,21 @@ MD5sum: 73d9a4965656081e3175567f5ebd6777
 Description: CLI to signal custom data to a CloudFormation WaitCondition
 
 Package: couchbase-server
-Version: 2.0.0
+Version: 2.2.0
 Architecture: amd64
 Maintainer: Couchbase <support@couchbase.com>
-Installed-Size: 354980
-Depends: libc6 (>= 2.11), libgcc1 (>= 1:4.1.1), libncurses5 (>= 5.6+20071006-3), libssl0.9.8 (>= 0.9.8k-1), libstdc++6 (>= 4.4.0), zlib1g (>= 1:1.1.4), lsb-base (>= 3.2)
+Installed-Size: 402664
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libreadline6 (>= 6.0), librtmp0 (>= 2.3), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.6), libtinfo5, zlib1g (>= 1:1.1.4), lsb-base (>= 3.2)
 Breaks: membase-server
 Replaces: membase-server
 Homepage: http://couchbase.com
 Priority: extra
 Section: web
-Filename: pool/main/c/couchbase-server/couchbase-server_2.0.0_amd64.deb
-Size: 120536270
-SHA256: 550ec72b57a06bfe81fae116bc14b189e6c1d6b84fed0dd9c47af3b47a8af358
-SHA1: 96eb56aae54dac6f71500d88f4522e8b64bd8c38
-MD5sum: 353db200c6ad12304a364ad37c13f535
+Filename: pool/main/c/couchbase-server/couchbase-server_2.2.0_amd64.deb
+Size: 137296952
+SHA256: 8ddcac284db6a8a3f83d4ece6d4548b8e98da59bcab3d7737227885eb90f4e11
+SHA1: 7d35a0beed621cb58fb5bbe2b1de4466b9e9cea7
+MD5sum: 72138670d2cc1b5db8465b580db88ba5
 Description: Couchbase Server
  Couchbase Server is the leading distribution of memcached and
  couchbase, created and supported by top contributors to the memcached
