@@ -10,11 +10,7 @@ apt-get update
 To add a new package:
 
 dpkg-sig --sign builder /tmp/mypackage_0.1.2_amd64.deb
-cd ubuntu
-# cd debian
-reprepro --ask-passphrase -Vb . includedeb precise /tmp/mypackage_0.1.2_amd64.deb
-# reprepro --ask-passphrase -Vb . includedeb squeeze /tmp/mypackage_0.1.2_amd64.deb
-
+cd ubuntu && reprepro --ask-passphrase -Vb . includedeb precise /tmp/mypackage_0.1.2_amd64.deb
 
 #Superceded keys:
 apt-key del 6AA5E619
