@@ -1,16 +1,16 @@
 Package: cg-awsattr
-Version: 0.9.9
+Version: 1.0.0
 Architecture: all
 Maintainer: msessa <matteo.sessa@catchoftheday.com.au>
 Installed-Size: 31
 Depends: python, python-cg-awsattr
 Priority: optional
 Section: python
-Filename: pool/main/c/cg-awsattr/cg-awsattr_0.9.9_all.deb
-Size: 3338
-SHA256: b344c621394df7924eca9ca80e6f2cf3e31bed199d87fac7239d2a76d01e5fdc
-SHA1: 93b4a182595355b69e5382b2cb97c6fad1ce9fdb
-MD5sum: 169386e75860c0826acf7611225409c1
+Filename: pool/main/c/cg-awsattr/cg-awsattr_1.0.0_all.deb
+Size: 3386
+SHA256: a5adb6b4d3913973b9deba40730176430d4180d130c7b9f1c5c1cbacf3b40b43
+SHA1: 743dc2568ea84f574e70db1bed116987380778d7
+MD5sum: 6442a5044c0a7f7ceaa810289493d473
 Description: Command line interface to the awsattr python library
 
 Package: cg-couchbase-cluster-helper
@@ -159,18 +159,18 @@ Description: Stashes logs. The logo is log with mustache. Very fucking funny.
 
 Package: python-cg-awsattr
 Source: cg-awsattr
-Version: 0.9.9
+Version: 1.0.0
 Architecture: all
 Maintainer: msessa <matteo.sessa@catchoftheday.com.au>
 Installed-Size: 65
 Depends: python
 Priority: optional
 Section: python
-Filename: pool/main/c/cg-awsattr/python-cg-awsattr_0.9.9_all.deb
-Size: 7068
-SHA256: 16864ad7ee02e75febf64e3032044bc75e5ac131d9d40541839fd13cb2af53c3
-SHA1: 51e35eb6d118088bbbf2a7ab0167549c6697f4b9
-MD5sum: 82eb51f5046854d513bab8f4323cc333
+Filename: pool/main/c/cg-awsattr/python-cg-awsattr_1.0.0_all.deb
+Size: 7138
+SHA256: fa3f457b1c47a1c4b9367856339c2e17c5b3b83d5fed800867a897d38297141b
+SHA1: 764dc9c71851431759574854bd101dce2ca96998
+MD5sum: 8ad8716d505cc6a8f8e857016bc5b7a3
 Description: Python class for retrieving metadata and attributes from various
  AWS locations, such as instance metadata, instance and VPC tags as well as CloudFormation
  resource
