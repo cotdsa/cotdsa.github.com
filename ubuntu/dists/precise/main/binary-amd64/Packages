@@ -1,16 +1,16 @@
 Package: cg-awsattr
-Version: 1.0.2
+Version: 1.0.3
 Architecture: all
 Maintainer: msessa <matteo.sessa@catchoftheday.com.au>
 Installed-Size: 32
 Depends: python, python-cg-awsattr
 Priority: optional
 Section: python
-Filename: pool/main/c/cg-awsattr/cg-awsattr_1.0.2_all.deb
-Size: 3460
-SHA256: e9991600980e2ef414ae896ae3e6ef1a135d9bd6fe37bb8a55295671d3cc33a9
-SHA1: 9da6e793661ea3397b7cf5e6e2fa18900db5bf58
-MD5sum: 57f4b3e223f331286731af929f553d82
+Filename: pool/main/c/cg-awsattr/cg-awsattr_1.0.3_all.deb
+Size: 3490
+SHA256: 034398713c1c88d8e25428513c11fac65eefbd8ffc64a191d1537e964d5d5fd3
+SHA1: 994138a2c757b67e3ce2c6d82c8c805f29e19a51
+MD5sum: 11ed098deefffa64fc1fb2d69a7a8f0d
 Description: Command line interface to the awsattr python library
 
 Package: cg-couchbase-cluster-helper
@@ -323,18 +323,18 @@ Description: openvpn-as
 
 Package: python-cg-awsattr
 Source: cg-awsattr
-Version: 1.0.2
+Version: 1.0.3
 Architecture: all
 Maintainer: msessa <matteo.sessa@catchoftheday.com.au>
-Installed-Size: 65
+Installed-Size: 66
 Depends: python
 Priority: optional
 Section: python
-Filename: pool/main/c/cg-awsattr/python-cg-awsattr_1.0.2_all.deb
-Size: 7288
-SHA256: 352ee56075179ea2c8f2b6cd9f142d0396d5beba344fdaf2a834cd317006e383
-SHA1: c3beb431c2873a28ac5723b4f17923c3764d74ca
-MD5sum: dd1866308ae9971269c3a311cea7fb25
+Filename: pool/main/c/cg-awsattr/python-cg-awsattr_1.0.3_all.deb
+Size: 7342
+SHA256: 4e0d5d992b6535d274f726fa167c8609a8efd84ad168ae178f08ce4ee4425ebe
+SHA1: 1fed8d77acd1a843b82f45dba11284db7e34a202
+MD5sum: da2b6ebb72e659a3510c1279ad34d3b0
 Description: Python class for retrieving metadata and attributes from various
  AWS locations, such as instance metadata, instance and VPC tags as well as CloudFormation
  resource
