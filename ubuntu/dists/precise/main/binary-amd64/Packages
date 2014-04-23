@@ -306,20 +306,20 @@ Description: secure shell (SSH) server, for secure access from remote machines
 Original-Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
 
 Package: openvpn-as
-Version: 1.8.5-Ubuntu12
+Version: 2.0.7-Ubuntu12
 Architecture: amd64
 Depends: iptables
 Maintainer: info <info@openvpn.net>
-Installed-Size: 50940
+Installed-Size: 56216
 Priority: optional
 Section: net
-Filename: pool/main/o/openvpn-as/openvpn-as_1.8.5-Ubuntu12_amd64.deb
-Size: 24669388
-SHA256: 77880ef40b8f8e6569d2e09f3dee824b3d06c8862cdd9a108ab4ca28584b4ccb
-SHA1: ae9cefcf1599e0056a5188eac5a3ad8552cb91bf
-MD5sum: 73e693bebfc0c71c26f98a3e6eebca16
+Filename: pool/main/o/openvpn-as/openvpn-as_2.0.7-Ubuntu12_amd64.deb
+Size: 27570374
+SHA256: ff39a7759345d36ed20f52f12f40fbf94f3d3324b57da985875e9767d94c2717
+SHA1: 55592cf3eac74c0a1255b496a78a995bce90a5f8
+MD5sum: 19632ba9aab63f63d4249c1f7dfba934
 Description: openvpn-as
- OpenVPN Access Server version 1.8.5 for Ubuntu12 amd64
+ OpenVPN Access Server version 2.0.7 for Ubuntu12 amd64
 
 Package: python-cg-awsattr
 Source: cg-awsattr
