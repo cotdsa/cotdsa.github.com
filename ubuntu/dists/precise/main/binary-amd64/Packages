@@ -213,19 +213,19 @@ Description: Apache 2 module to optimize web content.
  mod_pagespeed is an Apache module that aims to speed up load time of pages by applying web performance best practices automatically.
 
 Package: nxlog-ce
-Version: 2.7.1189
+Version: 2.8.1248
 Architecture: amd64
 Maintainer: Botond Botyanszki <boti@nxlog.org>
-Installed-Size: 3764
+Installed-Size: 3795
 Depends: libapr1 (>= 1.4.2), libc6 (>= 2.14), libcap2 (>= 2.10), libdbi1 (>= 0.8.4), libexpat1 (>= 1.95.8), libpcre3 (>= 8.10), libperl5.14 (>= 5.14.2), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4), adduser, openssl, lsb-base
 Suggests: libdbd-mysql, libdbd-pgsql, libdbd-sqlite3, libdbd-freetds
 Priority: optional
 Section: admin
-Filename: pool/main/n/nxlog-ce/nxlog-ce_2.7.1189_amd64.deb
-Size: 1948290
-SHA256: eff839ecdb42e8003d3b4fbcd7737ecd7b099bc7ced5971b81173d973557bf4f
-SHA1: 74f51d40f95072abf3bd9b065bbb6664c3979387
-MD5sum: 75a0c69aae4a086a076f483f0e72d628
+Filename: pool/main/n/nxlog-ce/nxlog-ce_2.8.1248_amd64.deb
+Size: 1960402
+SHA256: 01e9629f5403a5a1dc437b216c4a4e33e3105838d3f6d6c4718c530ed4fd5366
+SHA1: 16ba781ee2a282eb2666bac85bcf9de43684230e
+MD5sum: f79bd2563561fff7f1caa12a97ebd261
 Description: Modular, multi-threaded, high-performance log management solution
  In concept nxlog is similar to syslog-ng or rsyslog but it is not limited to
  unix and syslog only. It supports different platforms, log sources and formats
