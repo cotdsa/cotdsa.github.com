@@ -1,0 +1,505 @@
+Package: libipa-hbac-dev
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 67
+Depends: libipa-hbac0 (= 1.11.5-2ubuntu3~regex)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: libdevel
+Filename: pool/main/s/sssd/libipa-hbac-dev_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 17500
+SHA256: a62f88d9a7f57acd6f46c768b7ad3d61104a7d84ffc4576ea1320ab94fa68b6e
+SHA1: 4982a19747c889b399253472787d309504a53298
+MD5sum: 447727e6f09c32430fc84cfe7cd496f7
+Description: FreeIPA HBAC Evaluator library
+ Utility library to validate FreeIPA HBAC rules for authorization requests.
+ .
+ This package contains header files and symlinks to develop programs which will
+ use the libipa-hbac library.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: libipa-hbac0
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 61
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.12.0)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: libs
+Filename: pool/main/s/sssd/libipa-hbac0_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 18468
+SHA256: ff6de7d4921f05ef7538b3a92f7f4da5fda301c96a2b7d5d628e609f322e1199
+SHA1: cfa6f873ce93f4b9fbbf0a453b2ef5f4a7795dd5
+MD5sum: a8f8fed3c270acca5de7789ca151e055
+Description: FreeIPA HBAC Evaluator library
+ Utility library to validate FreeIPA HBAC rules for authorization requests.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: libnss-sss
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 92
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14)
+Recommends: sssd
+Multi-Arch: same
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: utils
+Filename: pool/main/s/sssd/libnss-sss_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 27714
+SHA256: cc138db33f38585cd64bf37b3c060b4e297986b26c3c613b106802ab61b69a49
+SHA1: 70e19780c427dc6c8e22c92891272b04ea4cb550
+MD5sum: 37d38d5c6d4e9870269b83726a5771f8
+Description: Nss library for the System Security Services Daemon
+ Provides a set of daemons to manage access to remote directories and
+ authentication mechanisms. It provides an NSS and PAM interface toward
+ the system and a pluggable backend system to connect to multiple different
+ account sources. It is also the basis to provide client auditing and policy
+ services for projects like FreeIPA.
+ .
+ This package provide the nss library to connect to the sssd daemon.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: libpam-sss
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 101
+Depends: libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libpam-runtime (>= 1.0.1-6), libpam-pwquality (>= 1.2.2-1)
+Recommends: sssd
+Multi-Arch: same
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: utils
+Filename: pool/main/s/sssd/libpam-sss_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 29660
+SHA256: 3f8a592af3c8f6eb804965c8c225cc0003f3465d527d013305bfe622d7af8d9d
+SHA1: 73b57804fee2dfe1b4a457bcc8970f39dfed3c6b
+MD5sum: d2cd9a58d9a15a7680d7e0a9e4a5bf33
+Description: Pam module for the System Security Services Daemon
+ Provides a set of daemons to manage access to remote directories and
+ authentication mechanisms. It provides an NSS and PAM interface toward
+ the system and a pluggable backend system to connect to multiple different
+ account sources. It is also the basis to provide client auditing and policy
+ services for projects like FreeIPA.
+ .
+ This package provide the pam module to connect to the sssd daemon.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: libsss-idmap-dev
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 93
+Depends: libsss-idmap0 (= 1.11.5-2ubuntu3~regex)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: libdevel
+Filename: pool/main/s/sssd/libsss-idmap-dev_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 19334
+SHA256: 98faf77dca4ad3e6d3ddc2f7b84f046ccbff324cf0320359719d58a4f6c285d0
+SHA1: 1d10540673c676e6b38d245aa953e2b4211c11e1
+MD5sum: 65343b0427c6d4b6d6c35aa207311ea9
+Description: ID mapping library for SSSD -- development files
+ Utility library to convert SIDs to Unix uids and gids.
+ .
+ This package contains header files and symlinks to develop programs which will
+ use the libsss-idmap library.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: libsss-idmap0
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 73
+Depends: libc6 (>= 2.14)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: libs
+Filename: pool/main/s/sssd/libsss-idmap0_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 22992
+SHA256: 8cb56cbd3b66f28640e86fb6a2991a741b9833f49b031a49bcafb9e6585cae4f
+SHA1: 9616f7c9aa7c80eeb1381206b11616e22c276b88
+MD5sum: 1fbc8f09fb01c1814df6679e42144f03
+Description: ID mapping library for SSSD
+ Utility library to convert SIDs to Unix uids and gids.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: libsss-nss-idmap-dev
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 63
+Depends: libsss-nss-idmap0 (= 1.11.5-2ubuntu3~regex)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: libdevel
+Filename: pool/main/s/sssd/libsss-nss-idmap-dev_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 16286
+SHA256: 69ff8ae01acc418f86917dad10248f9aa76ce21a2b9a8f0543aae2fc124b72c2
+SHA1: c041e323f0cabb5d1dfd309f7a547490a912ffb9
+MD5sum: db654a1cbcc7b8ab5cc5542757bfc9f9
+Description: SID based lookups library for SSSD -- development files
+ Utility library for SID based lookups.
+ .
+ This package contains header files and symlinks to develop programs which will
+ use the libsss-nss-idmap library.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: libsss-nss-idmap0
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 70
+Depends: libc6 (>= 2.12)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: libs
+Filename: pool/main/s/sssd/libsss-nss-idmap0_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 21646
+SHA256: 77ce4a2b0d6d9fc78fc60c2c51c1e30a549fa107fbfd1d1781bc3aa694417424
+SHA1: ce325eeb81e659360adb832c2245edabe2c22674
+MD5sum: 8c8571ee0dcd4903aa16f7d522ccd5e6
+Description: SID based lookups library for SSSD
+ Utility library for SID based lookups.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: libsss-sudo
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 80
+Depends: libc6 (>= 2.14)
+Replaces: libsss-sudo-dev (<= 1.9.3)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: libs
+Filename: pool/main/s/sssd/libsss-sudo_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 22758
+SHA256: 75f3560f691112dd90aec46f84b96e06893ff8bce793091dd92f8671d7f0fec1
+SHA1: 78ab782192ef69177755a21b15c012e5632f1483
+MD5sum: 6fe13378db397864213731c97482022d
+Description: Communicator library for sudo
+ Utility library to allow communication between sudo and SSSD for caching
+ sudo rules by SSSD.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: python-libipa-hbac
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 92
+Depends: libc6 (>= 2.2.5), libipa-hbac0 (= 1.11.5-2ubuntu3~regex), libpython2.7 (>= 2.7), python (>= 2.7), python (<< 2.8)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: python
+Filename: pool/main/s/sssd/python-libipa-hbac_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 26028
+SHA256: 0832a9bdb5d8fcfb1c65356950e70a535b6017cbe7bda7d6538f2daceb814090
+SHA1: e46ecf646f6fea08e6240f550440ee9d9fb91d04
+MD5sum: c704532ffdc2745a6944ac4e1f95cac1
+Description: Python bindings for the FreeIPA HBAC Evaluator library
+ The libipa_hbac-python contains the bindings so that libipa_hbac can be
+ used by Python applications.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: python-libsss-nss-idmap
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 67
+Depends: libc6 (>= 2.2.5), libpython2.7 (>= 2.7), libsss-nss-idmap0 (= 1.11.5-2ubuntu3~regex), python (>= 2.7), python (<< 2.8)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: python
+Filename: pool/main/s/sssd/python-libsss-nss-idmap_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 18814
+SHA256: 88e9d6c43a4d186a287b9eca35162bd753828cdca1cf9886b516a65dcde47852
+SHA1: cd903057e10f4ca0d44d4a5184ffa8c7df2e5234
+MD5sum: 8ab5a9aa8be849d0009c9dfde92214ac
+Description: Python bindings for the SID lookups library
+ This package contains the bindings for libnss_sss_idmap to be used by
+ Python applications.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: python-sss
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 278
+Depends: libc6 (>= 2.8), libldb1 (>= 0.9.21), libpopt0 (>= 1.14), libpython2.7 (>= 2.7), libselinux1 (>= 1.32), libsemanage1 (>= 2.0.3), libtalloc2 (>= 2.0.4~git20101213), python (>= 2.7), python (<< 2.8), python:any (>= 2.7.1-0ubuntu2)
+Recommends: sssd
+Provides: python2.7-sss
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: python
+Filename: pool/main/s/sssd/python-sss_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 68294
+SHA256: 523cfddf88e091c742c846114fe5caf9ebe18a151159270142f701b167384245
+SHA1: da3a1b25c66c86d7ed211ad9ffcdb895e25d3669
+MD5sum: d01185e4bb70671e7bd2ac359f63cee6
+Description: Python module for the System Security Services Daemon
+ Provides a set of daemons to manage access to remote directories and
+ authentication mechanisms. It provides an NSS and PAM interface toward
+ the system and a pluggable backend system to connect to multiple different
+ account sources. It is also the basis to provide client auditing and policy
+ services for projects like FreeIPA.
+ .
+ This package provide a module to access the configuration of the sssd daemon.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 43
+Depends: sssd-common (= 1.11.5-2ubuntu3~regex), sssd-ad (= 1.11.5-2ubuntu3~regex), sssd-ipa (= 1.11.5-2ubuntu3~regex), sssd-krb5 (= 1.11.5-2ubuntu3~regex), sssd-ldap (= 1.11.5-2ubuntu3~regex), sssd-proxy (= 1.11.5-2ubuntu3~regex), python-sss (= 1.11.5-2ubuntu3~regex)
+Multi-Arch: foreign
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: metapackages
+Filename: pool/main/s/sssd/sssd_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 15318
+SHA256: 71ef07fddd90fbbc6fa94a5b9c6b088a5975e140fd144b093e1b11fcf3e3c803
+SHA1: da65feb436dbcb950482e9e7ddcffc2fd39a5744
+MD5sum: d7b6591491bcd52f1d186caedef20c5d
+Description: System Security Services Daemon -- metapackage
+ Provides a set of daemons to manage access to remote directories and
+ authentication mechanisms. It provides an NSS and PAM interface toward
+ the system and a pluggable backend system to connect to multiple different
+ account sources. It is also the basis to provide client auditing and policy
+ services for projects like FreeIPA.
+ .
+ This package is a metapackage which installs the daemon and existing
+ authentication back ends.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: sssd-ad
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 306
+Depends: libc6 (>= 2.14), libdhash1 (>= 0.3.0.1), libkrb5-3 (>= 1.10.2+dfsg), libldap-2.4-2 (>= 2.4.7), libsss-idmap0 (= 1.11.5-2ubuntu3~regex), libtalloc2 (>= 2.0.4~git20101213), libtevent0 (>= 0.9.9), samba-libs (>= 2:4.1.6+dfsg), sssd-common (= 1.11.5-2ubuntu3~regex), sssd-ad-common (= 1.11.5-2ubuntu3~regex), sssd-krb5-common (= 1.11.5-2ubuntu3~regex)
+Breaks: sssd (<< 1.10.0~beta2-1)
+Replaces: sssd (<< 1.10.0~beta2-1)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: utils
+Filename: pool/main/s/sssd/sssd-ad_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 96812
+SHA256: 10f7a715a631a0307c3873aaa326b72ac817475ab83a860156d1217bcdc3a015
+SHA1: 98c315b3613c78738b383eee1f668ba69751543b
+MD5sum: 0d1a67e05b5ca9f6e74decbe36d22af6
+Description: System Security Services Daemon -- Active Directory back end
+ Provides the Active Directory back end that the SSSD can utilize to fetch
+ identity data from and authenticate against an Active Directory server.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: sssd-ad-common
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 203
+Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.0.2), libdhash1 (>= 0.3.0.1), libldb1 (>= 0.9.21), libpopt0 (>= 1.14), libsss-idmap0, libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libtevent0 (>= 0.9.9), samba-libs (>= 2:4.1.6+dfsg), sssd-common (= 1.11.5-2ubuntu3~regex)
+Breaks: sssd (<< 1.10.0~beta2-1)
+Replaces: sssd (<< 1.10.0~beta2-1)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: utils
+Filename: pool/main/s/sssd/sssd-ad-common_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 62982
+SHA256: ce06de0b6756a70da0e576d6c1da6fe98285f876bc01a94b2b0f9f84efd68dbc
+SHA1: b58e0d6ffca13fb57f29f395e4d7fe2aac0f8cea
+MD5sum: cd5a9bfa8ec0a30f95bf621b8e527045
+Description: System Security Services Daemon -- PAC responder
+ Provides the PAC responder that the AD and IPA backends can use for
+ fetching additional attributes from the kerberos ticket.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: sssd-common
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 3639
+Depends: libc-ares2 (>= 1.7.0), libc6 (>= 2.14), libdbus-1-3 (>= 1.1.1), libdhash1 (>= 0.3.0.1), libglib2.0-0 (>= 2.12.0), libini-config3 (>= 0.3.0.1), libkeyutils1, libkrb5-3 (>= 1.7dfsg), libldb1 (>= 0.9.21), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.7), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.0~1.9b1), libpam0g (>= 0.99.7.1), libpcre3, libpopt0 (>= 1.14), libsss-idmap0, libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libtevent0 (>= 0.9.9), init-system-helpers (>= 1.13~), sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16), python, python-sss
+Recommends: bind9-host, libnss-sss, libpam-sss, libsss-sudo
+Suggests: apparmor, sssd-tools
+Breaks: sssd (<< 1.10.0~beta2-1)
+Replaces: sssd (<< 1.10.0~beta2-1)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: utils
+Filename: pool/main/s/sssd/sssd-common_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 889656
+SHA256: 2f69a730f136e9a57d9ffa7a6856d7b1500fe9f7f1f25f03386b33f637cee53f
+SHA1: 8cbe07bd45900582a49425254bfe45b6f33ddce1
+MD5sum: 781e4e38ec8cc884b8ef10cf96277166
+Description: System Security Services Daemon -- common files
+ Provides a set of daemons to manage access to remote directories and
+ authentication mechanisms. It provides an NSS and PAM interface toward
+ the system and a pluggable backend system to connect to multiple different
+ account sources. It is also the basis to provide client auditing and policy
+ services for projects like FreeIPA.
+ .
+ This package provides the daemon and other common files needed by the
+ authentication back ends.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: sssd-ipa
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 579
+Depends: libc6 (>= 2.14), libdhash1 (>= 0.3.0.1), libipa-hbac0 (= 1.11.5-2ubuntu3~regex), libkrb5-3 (>= 1.10.2+dfsg), libldap-2.4-2 (>= 2.4.7), libsss-idmap0 (= 1.11.5-2ubuntu3~regex), libtalloc2 (>= 2.0.4~git20101213), libtevent0 (>= 0.9.9), samba-libs (>= 2:4.1.6+dfsg), sssd-common (= 1.11.5-2ubuntu3~regex), sssd-ad-common (= 1.11.5-2ubuntu3~regex), sssd-krb5-common (= 1.11.5-2ubuntu3~regex)
+Breaks: sssd (<< 1.10.0~beta2-1)
+Replaces: sssd (<< 1.10.0~beta2-1)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: utils
+Filename: pool/main/s/sssd/sssd-ipa_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 177126
+SHA256: 126046a24b1c220f7cbf8fe32423003e2ff2a87c307d441ac49d53fb32251c47
+SHA1: 03c02cc001f767577645d92a5d0da8a97fc862c9
+MD5sum: a4983b739ac693f609d1c32fd8b05557
+Description: System Security Services Daemon -- IPA back end
+ Provides the IPA back end that the SSSD can utilize to fetch identity data
+ from and authenticate against an IPA server.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: sssd-krb5
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 123
+Depends: libc6 (>= 2.4), libdhash1 (>= 0.3.0.1), libkrb5-3 (>= 1.10.2+dfsg), sssd-common (= 1.11.5-2ubuntu3~regex), sssd-krb5-common (= 1.11.5-2ubuntu3~regex)
+Breaks: sssd (<< 1.10.0~beta2-1)
+Replaces: sssd (<< 1.10.0~beta2-1)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: utils
+Filename: pool/main/s/sssd/sssd-krb5_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 37548
+SHA256: 042ffa38b3875f5d1ce0974eb05b5bf38a3711f12c73032701751ae9c35f9d6d
+SHA1: c1077b585cec86c20cc2a3d8acb5c9a0c9f79b0a
+MD5sum: 359d57743833260a10ddba392d383eb6
+Description: System Security Services Daemon -- Kerberos back end
+ Provides the Kerberos back end that the SSSD can utilize authenticate
+ against a Kerberos server.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: sssd-krb5-common
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 490
+Depends: libc6 (>= 2.14), libdhash1 (>= 0.3.0.1), libkrb5-3 (>= 1.11+dfsg), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), sssd-common (= 1.11.5-2ubuntu3~regex)
+Recommends: libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal
+Breaks: sssd (<< 1.10.0~beta2-1)
+Replaces: sssd (<< 1.10.0~beta2-1)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: utils
+Filename: pool/main/s/sssd/sssd-krb5-common_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 139112
+SHA256: 97d2612982ec9e2cd054ddbb6d95cde9490872bb7f9852f35177ef8d29cef736
+SHA1: a9d6a8e45b713f0e837d0fdadec905bb5d00f697
+MD5sum: 6f203ca826e733cec79c5044b7bf7bdf
+Description: System Security Services Daemon -- Kerberos helpers
+ Provides helper processes that the LDAP and Kerberos back ends can use for
+ Kerberos user or host authentication.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: sssd-ldap
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 249
+Depends: libc6 (>= 2.14), libdhash1 (>= 0.3.0.1), libkrb5-3 (>= 1.10.2+dfsg), libldap-2.4-2 (>= 2.4.7), libsss-idmap0 (= 1.11.5-2ubuntu3~regex), sssd-common (= 1.11.5-2ubuntu3~regex), sssd-krb5-common (= 1.11.5-2ubuntu3~regex)
+Recommends: ldap-utils
+Suggests: libsasl2-modules-ldap
+Breaks: sssd (<< 1.10.0~beta2-1)
+Replaces: sssd (<< 1.10.0~beta2-1)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: utils
+Filename: pool/main/s/sssd/sssd-ldap_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 85334
+SHA256: 08668d0eb251d9a96245d7a9fab215779e162cbf3860fd8cfc3299256fc3c76a
+SHA1: b9dcc39ae5ca3d4154e023b07d709770ee57c4ad
+MD5sum: fd5cbfc0aa313f34de3dfffb56d57425
+Description: System Security Services Daemon -- LDAP back end
+ Provides the LDAP back end that the SSSD can utilize to fetch identity data
+ from and authenticate against an LDAP server.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: sssd-proxy
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 201
+Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.0.2), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), sssd-common (= 1.11.5-2ubuntu3~regex)
+Breaks: sssd (<< 1.10.0~beta2-1)
+Replaces: sssd (<< 1.10.0~beta2-1)
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: utils
+Filename: pool/main/s/sssd/sssd-proxy_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 60882
+SHA256: 57f58844f636204e2cdad4f895a53178ab94f9f02ddd1f466bf8916551eb1021
+SHA1: 67df74d0880e7d7b155e5ffc12da345ee72167a8
+MD5sum: 86748377f5316e0b6b35a842eedcda5f
+Description: System Security Services Daemon -- proxy back end
+ Provides the proxy back end which can be used to wrap an existing NSS and/or
+ PAM modules to leverage SSSD caching.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
+Package: sssd-tools
+Source: sssd
+Version: 1.11.5-2ubuntu3~regex
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 1053
+Depends: libc6 (>= 2.12), libdhash1 (>= 0.3.0.1), libldb1 (>= 0.9.21), libpopt0 (>= 1.14), libselinux1 (>= 1.32), libsemanage1 (>= 2.0.3), libtalloc2 (>= 2.0.4~git20101213), sssd-common (= 1.11.5-2ubuntu3~regex), python
+Homepage: https://fedorahosted.org/sssd/
+Priority: extra
+Section: utils
+Filename: pool/main/s/sssd/sssd-tools_1.11.5-2ubuntu3~regex_amd64.deb
+Size: 183216
+SHA256: 5b33bd76e5fa67aae51e1eb714a4324a17de9ecf3e63d35be89c890f61b2ab80
+SHA1: 7a43ed93963e36b8e2e01c0c143e42fe9e9f1747
+MD5sum: 9e34cbbc6ee22b33515d6f56d9bfeab7
+Description: System Security Services Daemon -- tools
+ Provides a set of daemons to manage access to remote directories and
+ authentication mechanisms. It provides an NSS and PAM interface toward
+ the system and a pluggable backend system to connect to multiple different
+ account sources. It is also the basis to provide client auditing and policy
+ services for projects like FreeIPA.
+ .
+ This package provides tools to manage users, groups and nested groups when
+ using the local id provider.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+
