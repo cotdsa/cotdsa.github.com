@@ -1,0 +1,68 @@
+diff -ru sssd-1.11.5-orig/src/providers/ldap/sdap_access.c sssd-1.11.5/src/providers/ldap/sdap_access.c
+--- sssd-1.11.5-orig/src/providers/ldap/sdap_access.c	2014-04-08 10:58:15.000000000 +0000
++++ sssd-1.11.5/src/providers/ldap/sdap_access.c	2015-06-24 04:14:38.094442999 +0000
+@@ -30,6 +30,7 @@
+ #include <talloc.h>
+ #include <tevent.h>
+ #include <errno.h>
++#include <pcre.h>
+
+ #include "util/util.h"
+ #include "db/sysdb.h"
+@@ -1035,6 +1036,40 @@
+     return ret;
+ }
+
++#define OVECCOUNT 30
++
++int compare_regex(const char *inputStr, const char *regex)
++{
++    const char *error;
++    int erroffset;
++    pcre *re;
++    int ovector[OVECCOUNT];
++    int pcreExecRet;
++
++    re = pcre_compile(regex, 0, &error, &erroffset, 0);
++    if (!re) {
++        DEBUG(1, ("pcre_compile failed (offset: %d), %s\n", erroffset, error));
++        return -1;
++    }
++
++    pcreExecRet = pcre_exec(re, 0, inputStr, strlen(inputStr), 0, 0, ovector, OVECCOUNT);
++
++    pcre_free(re);
++
++    if (pcreExecRet < 0) {
++        switch(pcreExecRet) {
++            case PCRE_ERROR_NOMATCH:
++                DEBUG(6, ("String '%s' did not match regex '%s'\n", inputStr, regex));
++                break;
++            default:
++                DEBUG(1, ("pcre_exec failed, errno: %d\n", pcreExecRet));
++                break;
++        }
++        return -1;
++    }
++    return 0;
++}
++
+ static errno_t sdap_access_host(struct ldb_message *user_entry)
+ {
+     errno_t ret;
+@@ -1065,13 +1100,13 @@
+     for (i = 0; i < el->num_values; i++) {
+         host = (char *)el->values[i].data;
+         if (host[0] == '!' &&
+-                strcasecmp(hostname, host+1) == 0) {
++                compare_regex(hostname, host+1) == 0) {
+             /* This host is explicitly denied */
+             DEBUG(4, ("Access denied by [%s]\n", host));
+             /* A denial trumps all. Break here */
+             return ERR_ACCESS_DENIED;
+
+-        } else if (strcasecmp(hostname, host) == 0) {
++        } else if (compare_regex(hostname, host) == 0) {
+             /* This host is explicitly allowed */
+             DEBUG(4, ("Access granted for [%s]\n", host));
+             /* We still need to loop through to make sure
