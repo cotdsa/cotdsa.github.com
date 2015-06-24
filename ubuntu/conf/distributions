@@ -9,3 +9,15 @@ DscIndices: Sources Release .gz .bz2
 Contents: .gz .bz2
 Update: -
 SignWith: AD9BE2CB
+
+Origin: Ubuntu
+Codename: trusty
+Description: Ubuntu Trusty mirror
+Architectures: amd64 source i386
+Components: main
+UDebComponents: main
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Contents: .gz .bz2
+Update: -
+SignWith: AD9BE2CB
